@@ -169,7 +169,10 @@ static void example_espnow_task(void *pvParameter)
     int recv_magic = 0;
     bool is_broadcast = false;
     int ret;
-
+    int nodes = 0;
+    int TimesBroadcast = 0;
+    uint8_t *Peer[20];
+    int i = 0;
     vTaskDelay(5000 / portTICK_RATE_MS);
     ESP_LOGI(TAG, "Start sending broadcast data");
 
@@ -206,6 +209,7 @@ static void example_espnow_task(void *pvParameter)
                 /* Delay a while before sending the next data. */
                 if (send_param->delay > 0) {
                     vTaskDelay(send_param->delay/portTICK_RATE_MS);
+                    TimesBroadcast++;
                 }
 
                 ESP_LOGI(TAG, "send data to "MACSTR"", MAC2STR(send_cb->mac_addr));
@@ -214,7 +218,12 @@ static void example_espnow_task(void *pvParameter)
                 example_espnow_data_prepare(send_param);
 
                 /* Send the next data after the previous data is sent. */
-                if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
+                if (TimesBroadcast >= 20){
+                    send_param->state = 1;
+                    ESP_LOGI(TAG, "%d  peers has been encountered",nodes);
+
+                }
+                else if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
                     ESP_LOGE(TAG, "Send error");
                     example_espnow_deinit(send_param);
                     vTaskDelete(NULL);
@@ -250,7 +259,14 @@ static void example_espnow_task(void *pvParameter)
                          *
                          */
                         ESP_LOGI(TAG, "A new peer has been encountered");
-                        ESP_LOGI(TAG, "Which MAC is "MACSTR"", MAC2STR(recv_cb->mac_addr));
+                        Peer[ i++ ] = recv_cb->mac_addr;
+                        ESP_LOGI(TAG, "Which MAC is "MACSTR"", MAC2STR(Peer[i]));
+                        nodes++;
+
+                        /**
+                         * Adding a tables of Macs
+                         */
+
                     }
 
                     /* Indicates that the device has received broadcast ESPNOW data.

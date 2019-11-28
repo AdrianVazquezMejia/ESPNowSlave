@@ -20,75 +20,75 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
   7 .literal.example_espnow_init 000000e8  00000000  00000000  0000016c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  8 .literal.example_espnow_task 00000114  00000000  00000000  00000254  2**2
+  8 .literal.example_espnow_task 00000120  00000000  00000000  00000254  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  9 .literal.app_main 00000034  00000000  00000000  00000368  2**2
+  9 .literal.app_main 00000034  00000000  00000000  00000374  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 10 .text         00000000  00000000  00000000  0000039c  2**0
+ 10 .text         00000000  00000000  00000000  000003a8  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 11 .data         00000000  00000000  00000000  0000039c  2**0
+ 11 .data         00000000  00000000  00000000  000003a8  2**0
                   CONTENTS, ALLOC, LOAD, DATA
- 12 .bss          00000000  00000000  00000000  0000039c  2**0
+ 12 .bss          00000000  00000000  00000000  000003a8  2**0
                   ALLOC
- 13 .rodata.str1.4 00000704  00000000  00000000  0000039c  2**2
+ 13 .rodata.str1.4 0000073c  00000000  00000000  000003a8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 14 .text.example_event_handler 00000024  00000000  00000000  00000aa0  2**2
+ 14 .text.example_event_handler 00000024  00000000  00000000  00000ae4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 15 .text.example_wifi_init 0000010e  00000000  00000000  00000ac4  2**2
+ 15 .text.example_wifi_init 0000010e  00000000  00000000  00000b08  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 16 .text.example_espnow_deinit 00000028  00000000  00000000  00000bd4  2**2
+ 16 .text.example_espnow_deinit 00000028  00000000  00000000  00000c18  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 17 .text.example_espnow_recv_cb 000000aa  00000000  00000000  00000bfc  2**2
+ 17 .text.example_espnow_recv_cb 000000aa  00000000  00000000  00000c40  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 18 .text.example_espnow_send_cb 00000062  00000000  00000000  00000ca8  2**2
+ 18 .text.example_espnow_send_cb 00000062  00000000  00000000  00000cec  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 19 .text.example_espnow_data_parse 0000008c  00000000  00000000  00000d0c  2**2
+ 19 .text.example_espnow_data_parse 0000008c  00000000  00000000  00000d50  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 20 .text.example_espnow_data_prepare 0000009b  00000000  00000000  00000d98  2**2
+ 20 .text.example_espnow_data_prepare 0000009b  00000000  00000000  00000ddc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 21 .text.example_espnow_init 00000204  00000000  00000000  00000e34  2**2
+ 21 .text.example_espnow_init 00000204  00000000  00000000  00000e78  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 22 .text.example_espnow_task 00000368  00000000  00000000  00001038  2**2
+ 22 .text.example_espnow_task 000003b8  00000000  00000000  0000107c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 23 .text.app_main 00000066  00000000  00000000  000013a0  2**2
+ 23 .text.app_main 00000066  00000000  00000000  00001434  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 24 .rodata.__func__$8008 00000014  00000000  00000000  00001408  2**2
+ 24 .rodata.__func__$8012 00000014  00000000  00000000  0000149c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 25 .rodata.__func__$8018 00000014  00000000  00000000  0000141c  2**2
+ 25 .rodata.__func__$8022 00000014  00000000  00000000  000014b0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 26 .rodata.__func__$7956 00000012  00000000  00000000  00001430  2**2
+ 26 .rodata.__func__$7956 00000012  00000000  00000000  000014c4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 27 .rodata.__func__$8031 00000009  00000000  00000000  00001444  2**2
+ 27 .rodata.__func__$8035 00000009  00000000  00000000  000014d8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 28 .rodata.__func__$7990 0000001c  00000000  00000000  00001450  2**2
+ 28 .rodata.__func__$7990 0000001c  00000000  00000000  000014e4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 29 .bss.s_example_espnow_seq 00000004  00000000  00000000  0000146c  2**2
+ 29 .bss.s_example_espnow_seq 00000004  00000000  00000000  00001500  2**2
                   ALLOC
- 30 .data.s_example_broadcast_mac 00000006  00000000  00000000  0000146c  2**2
+ 30 .data.s_example_broadcast_mac 00000006  00000000  00000000  00001500  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 31 .bss.s_example_espnow_queue 00000004  00000000  00000000  00001474  2**2
+ 31 .bss.s_example_espnow_queue 00000004  00000000  00000000  00001508  2**2
                   ALLOC
- 32 .debug_frame  00000100  00000000  00000000  00001474  2**2
+ 32 .debug_frame  00000100  00000000  00000000  00001508  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_info   00002dd4  00000000  00000000  00001574  2**0
+ 33 .debug_info   00002e6f  00000000  00000000  00001608  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 34 .debug_abbrev 0000038f  00000000  00000000  00004348  2**0
+ 34 .debug_abbrev 00000398  00000000  00000000  00004477  2**0
                   CONTENTS, READONLY, DEBUGGING
- 35 .debug_loc    000004f5  00000000  00000000  000046d7  2**0
+ 35 .debug_loc    000005c7  00000000  00000000  0000480f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 36 .debug_aranges 00000068  00000000  00000000  00004bcc  2**0
+ 36 .debug_aranges 00000068  00000000  00000000  00004dd6  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 37 .debug_ranges 00000058  00000000  00000000  00004c34  2**0
+ 37 .debug_ranges 00000088  00000000  00000000  00004e3e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 38 .debug_line   00000a72  00000000  00000000  00004c8c  2**0
+ 38 .debug_line   00000aa2  00000000  00000000  00004ec6  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 39 .debug_str    00001ac8  00000000  00000000  000056fe  2**0
+ 39 .debug_str    00001ae2  00000000  00000000  00005968  2**0
                   CONTENTS, READONLY, DEBUGGING
- 40 .comment      0000003b  00000000  00000000  000071c6  2**0
+ 40 .comment      0000003b  00000000  00000000  0000744a  2**0
                   CONTENTS, READONLY
- 41 .xtensa.info  00000038  00000000  00000000  00007201  2**0
+ 41 .xtensa.info  00000038  00000000  00000000  00007485  2**0
                   CONTENTS, READONLY
- 42 .xt.lit       00000050  00000000  00000000  00007239  2**0
+ 42 .xt.lit       00000050  00000000  00000000  000074bd  2**0
                   CONTENTS, RELOC, READONLY
- 43 .xt.prop      0000042c  00000000  00000000  00007289  2**0
+ 43 .xt.prop      00000444  00000000  00000000  0000750d  2**0
                   CONTENTS, RELOC, READONLY
