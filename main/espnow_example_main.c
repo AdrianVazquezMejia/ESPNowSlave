@@ -169,10 +169,12 @@ static void example_espnow_task(void *pvParameter)
     int recv_magic = 0;
     bool is_broadcast = false;
     int ret;
-    int nodes = 0;
+    int nodes = 1;
     int TimesBroadcast = 0;
-    uint8_t *Peer[20];
-    int i = 0;
+    uint8_t saludo[] = "Hello World";
+    uint8_t Peer[6];
+    int i = 1;
+
     vTaskDelay(5000 / portTICK_RATE_MS);
     ESP_LOGI(TAG, "Start sending broadcast data");
 
@@ -218,9 +220,12 @@ static void example_espnow_task(void *pvParameter)
                 example_espnow_data_prepare(send_param);
 
                 /* Send the next data after the previous data is sent. */
-                if (TimesBroadcast >= 20){
+                if (TimesBroadcast == 20)
                     send_param->state = 1;
+
+                if (TimesBroadcast > 20){
                     ESP_LOGI(TAG, "%d  peers has been encountered",nodes);
+                    vTaskDelay(5000 / portTICK_RATE_MS);
 
                 }
                 else if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
@@ -259,9 +264,10 @@ static void example_espnow_task(void *pvParameter)
                          *
                          */
                         ESP_LOGI(TAG, "A new peer has been encountered");
-                        Peer[ i++ ] = recv_cb->mac_addr;
-                        ESP_LOGI(TAG, "Which MAC is "MACSTR"", MAC2STR(Peer[i]));
-                        nodes++;
+                        //Peer[ i++ ] = recv_cb->mac_addr;
+                        memcpy(Peer, recv_cb->mac_addr , ESP_NOW_ETH_ALEN);
+                         ESP_LOGI(TAG, "Which MAC is "MACSTR"", MAC2STR(Peer));
+
 
                         /**
                          * Adding a tables of Macs
@@ -272,26 +278,29 @@ static void example_espnow_task(void *pvParameter)
                     /* Indicates that the device has received broadcast ESPNOW data.
                     if (send_param->state == 0) {
                         send_param->state = 1;
-                    }
 
+
+                    }
 */
+
 
                     /* If receive broadcast ESPNOW data which indicates that the other device has received
                      * broadcast ESPNOW data and the local magic number is bigger than that in the received
                      * broadcast ESPNOW data, stop sending broadcast ESPNOW data and start sending unicast
                      * ESPNOW data.
                      */
-/*                    if (recv_state == 1) {
-                         The device which has the bigger magic number sends ESPNOW data, the other one
-                         * receives ESPNOW data.
+                    if (recv_state == 1) {
+/*                         The device which has the bigger magic number sends ESPNOW data, the other one
+                         * receives ESPNOW data.*/
 
-                        if (send_param->unicast == false && send_param->magic >= recv_magic) {
+                        if (send_param->unicast == false) {
                     	    ESP_LOGI(TAG, "Start sending unicast data");
-                    	    ESP_LOGI(TAG, "send data to "MACSTR"", MAC2STR(recv_cb->mac_addr));
+                    	    ESP_LOGI(TAG, "send data to "MACSTR"", MAC2STR(Peer));
 
-                    	     Start sending unicast ESPNOW data.
-                            memcpy(send_param->dest_mac, recv_cb->mac_addr, ESP_NOW_ETH_ALEN);
+                    	     //Start sending unicast ESPNOW data.
+                            memcpy(send_param->dest_mac, Peer, ESP_NOW_ETH_ALEN);
                             example_espnow_data_prepare(send_param);
+                            send_param->buffer = saludo;
                             if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
                                 ESP_LOGE(TAG, "Send error");
                                 example_espnow_deinit(send_param);
@@ -302,7 +311,7 @@ static void example_espnow_task(void *pvParameter)
                                 send_param->unicast = true;
                             }
                         }
-                    }*/
+                    }
                 }
                 else if (ret == EXAMPLE_ESPNOW_DATA_UNICAST) {
                     ESP_LOGI(TAG, "Receive %dth unicast data from: "MACSTR", len: %d", recv_seq, MAC2STR(recv_cb->mac_addr), recv_cb->data_len);
