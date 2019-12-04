@@ -149,8 +149,8 @@ void example_espnow_data_prepare(example_espnow_send_param_t *send_param)
 {
     example_espnow_data_t *buf = (example_espnow_data_t *)send_param->buffer;
     uint8_t saludo[] = "Hello World";
-    assert(send_param->len >= sizeof(example_espnow_data_t));
-
+    //assert(send_param->len >= sizeof(example_espnow_data_t));
+    send_param->len = sizeof(example_espnow_data_t)+1;
     buf->type = IS_BROADCAST_ADDR(send_param->dest_mac) ? EXAMPLE_ESPNOW_DATA_BROADCAST : EXAMPLE_ESPNOW_DATA_UNICAST;
     buf->state = send_param->state;
     buf->seq_num = s_example_espnow_seq[buf->type]++;
@@ -218,15 +218,15 @@ static void example_espnow_task(void *pvParameter)
                 ESP_LOGI(TAG, "send data to "MACSTR"", MAC2STR(send_cb->mac_addr));
 
                 memcpy(send_param->dest_mac, send_cb->mac_addr, ESP_NOW_ETH_ALEN);
-                example_espnow_data_prepare(send_param);
+
 
                 /* Send the next data after the previous data is sent. */
                 if (TimesBroadcast == 20){
                     send_param->state = 1;
                     ESP_LOGI(TAG, "%d  peers has been encountered",nodes-1);
-                    vTaskDelay(5000 / portTICK_RATE_MS);
+                    vTaskDelay(1000 / portTICK_RATE_MS);
                 }
-
+                example_espnow_data_prepare(send_param);
                 //if(TimesBroadcast <= 20)
                 if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
                     ESP_LOGE(TAG, "Send error");
@@ -289,11 +289,11 @@ static void example_espnow_task(void *pvParameter)
                      * broadcast ESPNOW data, stop sending broadcast ESPNOW data and start sending unicast
                      * ESPNOW data.
                      */
-                    if (recv_state == 1) {
+                    if (recv_state == 1 ) {
 /*                         The device which has the bigger magic number sends ESPNOW data, the other one
                          * receives ESPNOW data.*/
 
-                        if (send_param->unicast == false) {
+                        if (send_param->unicast == false && (send_param->magic >= recv_magic)) {
                     	    ESP_LOGI(TAG, "Start sending unicast data");
                     	    ESP_LOGI(TAG, "send data to "MACSTR"", MAC2STR(Peer[1]));
 
@@ -301,10 +301,11 @@ static void example_espnow_task(void *pvParameter)
                             //memcpy(send_param->dest_mac, Peer, ESP_NOW_ETH_ALEN);
 
                     	    //send_param->len = sizeof(send_param);
+
                             example_espnow_data_prepare(send_param);
 
-
-                            if (esp_now_send(Peer[1], send_param->buffer, send_param->len) != ESP_OK) {
+                            memcpy(send_param->dest_mac, Peer[1], ESP_NOW_ETH_ALEN);
+                            if (esp_now_send(send_param->dest_mac, send_param->buffer, send_param->len) != ESP_OK) {
                                 ESP_LOGE(TAG, "Send error");
                                 example_espnow_deinit(send_param);
                                 vTaskDelete(NULL);
@@ -380,7 +381,7 @@ static esp_err_t example_espnow_init(void)
     send_param->unicast = false;
     send_param->broadcast = true;
     send_param->state = 0;
-    send_param->magic = esp_random();
+    send_param->magic = 0;
     send_param->count = CONFIG_ESPNOW_SEND_COUNT;
     send_param->delay = CONFIG_ESPNOW_SEND_DELAY;
     send_param->len = CONFIG_ESPNOW_SEND_LEN;
