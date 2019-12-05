@@ -22,7 +22,7 @@ esp_timer.o: /home/estelio/esp/esp-idf/components/esp32/esp_timer.c \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -139,7 +139,7 @@ esp_timer.o: /home/estelio/esp/esp-idf/components/esp32/esp_timer.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h:
 

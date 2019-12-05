@@ -1,6 +1,6 @@
 src/bootloader_common.o: \
  /home/estelio/esp/esp-idf/components/bootloader_support/src/bootloader_common.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -31,7 +31,7 @@ src/bootloader_common.o: \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h:
 

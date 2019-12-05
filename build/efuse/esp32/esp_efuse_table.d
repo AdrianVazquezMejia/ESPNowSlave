@@ -1,6 +1,6 @@
 esp32/esp_efuse_table.o: \
  /home/estelio/esp/esp-idf/components/efuse/esp32/esp_efuse_table.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/efuse/include/esp_efuse.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -35,7 +35,7 @@ esp32/esp_efuse_table.o: \
  /home/estelio/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/estelio/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/efuse/include/esp_efuse.h:
 

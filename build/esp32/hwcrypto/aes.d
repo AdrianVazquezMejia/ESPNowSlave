@@ -16,7 +16,7 @@ hwcrypto/aes.o: /home/estelio/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
@@ -129,7 +129,7 @@ hwcrypto/aes.o: /home/estelio/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 

@@ -1,5 +1,5 @@
 int_wdt.o: /home/estelio/esp/esp-idf/components/esp32/int_wdt.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -90,7 +90,7 @@ int_wdt.o: /home/estelio/esp/esp-idf/components/esp32/int_wdt.c \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdint.h:
 

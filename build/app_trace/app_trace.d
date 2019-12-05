@@ -23,7 +23,7 @@ app_trace.o: /home/estelio/esp/esp-idf/components/app_trace/app_trace.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
@@ -142,7 +142,7 @@ app_trace.o: /home/estelio/esp/esp-idf/components/app_trace/app_trace.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 

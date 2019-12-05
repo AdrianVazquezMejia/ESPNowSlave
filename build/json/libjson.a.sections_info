@@ -1,4 +1,4 @@
-In archive /home/estelio/eclipse-workspace/Project_SlaveNow/build/json/libjson.a:
+In archive /home/estelio/eclipse-workspace/Project_MasterNow/build/json/libjson.a:
 
 cJSON.o:     file format elf32-xtensa-le
 
@@ -424,15 +424,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 209 .debug_line   000027df  00000000  00000000  0000a6e4  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-210 .debug_str    00000e80  00000000  00000000  0000cec3  2**0
+210 .debug_str    00000e81  00000000  00000000  0000cec3  2**0
                   CONTENTS, READONLY, DEBUGGING
-211 .comment      0000003b  00000000  00000000  0000dd43  2**0
+211 .comment      0000003b  00000000  00000000  0000dd44  2**0
                   CONTENTS, READONLY
-212 .xtensa.info  00000038  00000000  00000000  0000dd7e  2**0
+212 .xtensa.info  00000038  00000000  00000000  0000dd7f  2**0
                   CONTENTS, READONLY
-213 .xt.lit       000002b0  00000000  00000000  0000ddb6  2**0
+213 .xt.lit       000002b0  00000000  00000000  0000ddb7  2**0
                   CONTENTS, RELOC, READONLY
-214 .xt.prop      0000315c  00000000  00000000  0000e066  2**0
+214 .xt.prop      0000315c  00000000  00000000  0000e067  2**0
                   CONTENTS, RELOC, READONLY
 
 cJSON_Utils.o:     file format elf32-xtensa-le
@@ -599,13 +599,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  79 .debug_line   000012cd  00000000  00000000  00005a93  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 80 .debug_str    00000972  00000000  00000000  00006d60  2**0
+ 80 .debug_str    00000973  00000000  00000000  00006d60  2**0
                   CONTENTS, READONLY, DEBUGGING
- 81 .comment      0000003b  00000000  00000000  000076d2  2**0
+ 81 .comment      0000003b  00000000  00000000  000076d3  2**0
                   CONTENTS, READONLY
- 82 .xtensa.info  00000038  00000000  00000000  0000770d  2**0
+ 82 .xtensa.info  00000038  00000000  00000000  0000770e  2**0
                   CONTENTS, READONLY
- 83 .xt.lit       000000f8  00000000  00000000  00007745  2**0
+ 83 .xt.lit       000000f8  00000000  00000000  00007746  2**0
                   CONTENTS, RELOC, READONLY
- 84 .xt.prop      0000165c  00000000  00000000  0000783d  2**0
+ 84 .xt.prop      0000165c  00000000  00000000  0000783e  2**0
                   CONTENTS, RELOC, READONLY

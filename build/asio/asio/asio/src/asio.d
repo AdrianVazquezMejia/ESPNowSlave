@@ -3,7 +3,7 @@ asio/asio/src/asio.o: \
  /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/impl/src.hpp \
  /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/detail/config.hpp \
  /home/estelio/esp/esp-idf/components/asio/port/include/esp_asio_config.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/impl/error.ipp \
  /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/error.hpp \
  /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/error_code.hpp \
@@ -327,7 +327,7 @@ asio/asio/src/asio.o: \
 
 /home/estelio/esp/esp-idf/components/asio/port/include/esp_asio_config.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/asio/asio/asio/include/asio/impl/error.ipp:
 

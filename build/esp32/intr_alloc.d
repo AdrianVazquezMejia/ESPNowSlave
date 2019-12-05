@@ -1,5 +1,5 @@
 intr_alloc.o: /home/estelio/esp/esp-idf/components/esp32/intr_alloc.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -84,7 +84,7 @@ intr_alloc.o: /home/estelio/esp/esp-idf/components/esp32/intr_alloc.c \
  /home/estelio/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_ipc.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdint.h:
 

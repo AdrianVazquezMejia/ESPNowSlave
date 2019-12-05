@@ -26,7 +26,7 @@ port.o: /home/estelio/esp/esp-idf/components/freertos/port.c \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -145,7 +145,7 @@ port.o: /home/estelio/esp/esp-idf/components/freertos/port.c \
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

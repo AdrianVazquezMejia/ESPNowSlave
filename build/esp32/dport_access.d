@@ -16,7 +16,7 @@ dport_access.o: /home/estelio/esp/esp-idf/components/esp32/dport_access.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdio.h \
@@ -129,7 +129,7 @@ dport_access.o: /home/estelio/esp/esp-idf/components/esp32/dport_access.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 

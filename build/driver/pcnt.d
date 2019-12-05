@@ -4,7 +4,7 @@ pcnt.o: /home/estelio/esp/esp-idf/components/driver/pcnt.c \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -99,7 +99,7 @@ pcnt.o: /home/estelio/esp/esp-idf/components/driver/pcnt.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

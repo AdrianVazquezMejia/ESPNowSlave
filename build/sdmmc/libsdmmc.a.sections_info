@@ -1,4 +1,4 @@
-In archive /home/estelio/eclipse-workspace/Project_SlaveNow/build/sdmmc/libsdmmc.a:
+In archive /home/estelio/eclipse-workspace/Project_MasterNow/build/sdmmc/libsdmmc.a:
 
 sdmmc_init.o:     file format elf32-xtensa-le
 
@@ -28,15 +28,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  11 .debug_line   0000047f  00000000  00000000  00001478  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 12 .debug_str    00000695  00000000  00000000  000018f7  2**0
+ 12 .debug_str    00000696  00000000  00000000  000018f7  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .comment      0000003b  00000000  00000000  00001f8c  2**0
+ 13 .comment      0000003b  00000000  00000000  00001f8d  2**0
                   CONTENTS, READONLY
- 14 .xtensa.info  00000038  00000000  00000000  00001fc7  2**0
+ 14 .xtensa.info  00000038  00000000  00000000  00001fc8  2**0
                   CONTENTS, READONLY
- 15 .xt.lit       00000008  00000000  00000000  00001fff  2**0
+ 15 .xt.lit       00000008  00000000  00000000  00002000  2**0
                   CONTENTS, RELOC, READONLY
- 16 .xt.prop      00000270  00000000  00000000  00002007  2**0
+ 16 .xt.prop      00000270  00000000  00000000  00002008  2**0
                   CONTENTS, RELOC, READONLY
 
 sdmmc_io.o:     file format elf32-xtensa-le
@@ -133,15 +133,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  44 .debug_line   000007b1  00000000  00000000  00002830  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 45 .debug_str    000006bc  00000000  00000000  00002fe1  2**0
+ 45 .debug_str    000006bd  00000000  00000000  00002fe1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 46 .comment      0000003b  00000000  00000000  0000369d  2**0
+ 46 .comment      0000003b  00000000  00000000  0000369e  2**0
                   CONTENTS, READONLY
- 47 .xtensa.info  00000038  00000000  00000000  000036d8  2**0
+ 47 .xtensa.info  00000038  00000000  00000000  000036d9  2**0
                   CONTENTS, READONLY
- 48 .xt.lit       00000068  00000000  00000000  00003710  2**0
+ 48 .xt.lit       00000068  00000000  00000000  00003711  2**0
                   CONTENTS, RELOC, READONLY
- 49 .xt.prop      0000060c  00000000  00000000  00003778  2**0
+ 49 .xt.prop      0000060c  00000000  00000000  00003779  2**0
                   CONTENTS, RELOC, READONLY
 
 sdmmc_common.o:     file format elf32-xtensa-le
@@ -224,15 +224,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  37 .debug_line   000008b3  00000000  00000000  0000331e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 38 .debug_str    00000b6a  00000000  00000000  00003bd1  2**0
+ 38 .debug_str    00000b6b  00000000  00000000  00003bd1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 39 .comment      0000003b  00000000  00000000  0000473b  2**0
+ 39 .comment      0000003b  00000000  00000000  0000473c  2**0
                   CONTENTS, READONLY
- 40 .xtensa.info  00000038  00000000  00000000  00004776  2**0
+ 40 .xtensa.info  00000038  00000000  00000000  00004777  2**0
                   CONTENTS, READONLY
- 41 .xt.lit       00000050  00000000  00000000  000047ae  2**0
+ 41 .xt.lit       00000050  00000000  00000000  000047af  2**0
                   CONTENTS, RELOC, READONLY
- 42 .xt.prop      00000618  00000000  00000000  000047fe  2**0
+ 42 .xt.prop      00000618  00000000  00000000  000047ff  2**0
                   CONTENTS, RELOC, READONLY
 
 sdmmc_mmc.o:     file format elf32-xtensa-le
@@ -297,15 +297,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  28 .debug_line   0000088e  00000000  00000000  000038b7  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 29 .debug_str    00000626  00000000  00000000  00004145  2**0
+ 29 .debug_str    00000627  00000000  00000000  00004145  2**0
                   CONTENTS, READONLY, DEBUGGING
- 30 .comment      0000003b  00000000  00000000  0000476b  2**0
+ 30 .comment      0000003b  00000000  00000000  0000476c  2**0
                   CONTENTS, READONLY
- 31 .xtensa.info  00000038  00000000  00000000  000047a6  2**0
+ 31 .xtensa.info  00000038  00000000  00000000  000047a7  2**0
                   CONTENTS, READONLY
- 32 .xt.lit       00000038  00000000  00000000  000047de  2**0
+ 32 .xt.lit       00000038  00000000  00000000  000047df  2**0
                   CONTENTS, RELOC, READONLY
- 33 .xt.prop      000003cc  00000000  00000000  00004816  2**0
+ 33 .xt.prop      000003cc  00000000  00000000  00004817  2**0
                   CONTENTS, RELOC, READONLY
 
 sdmmc_cmd.o:     file format elf32-xtensa-le
@@ -426,15 +426,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  56 .debug_line   00000bd3  00000000  00000000  0000373c  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 57 .debug_str    00000829  00000000  00000000  0000430f  2**0
+ 57 .debug_str    0000082a  00000000  00000000  0000430f  2**0
                   CONTENTS, READONLY, DEBUGGING
- 58 .comment      0000003b  00000000  00000000  00004b38  2**0
+ 58 .comment      0000003b  00000000  00000000  00004b39  2**0
                   CONTENTS, READONLY
- 59 .xtensa.info  00000038  00000000  00000000  00004b73  2**0
+ 59 .xtensa.info  00000038  00000000  00000000  00004b74  2**0
                   CONTENTS, READONLY
- 60 .xt.lit       00000098  00000000  00000000  00004bab  2**0
+ 60 .xt.lit       00000098  00000000  00000000  00004bac  2**0
                   CONTENTS, RELOC, READONLY
- 61 .xt.prop      0000096c  00000000  00000000  00004c43  2**0
+ 61 .xt.prop      0000096c  00000000  00000000  00004c44  2**0
                   CONTENTS, RELOC, READONLY
 
 sdmmc_sd.o:     file format elf32-xtensa-le
@@ -527,13 +527,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  42 .debug_line   00000a03  00000000  00000000  00003fdd  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 43 .debug_str    000007ed  00000000  00000000  000049e0  2**0
+ 43 .debug_str    000007ee  00000000  00000000  000049e0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 44 .comment      0000003b  00000000  00000000  000051cd  2**0
+ 44 .comment      0000003b  00000000  00000000  000051ce  2**0
                   CONTENTS, READONLY
- 45 .xtensa.info  00000038  00000000  00000000  00005208  2**0
+ 45 .xtensa.info  00000038  00000000  00000000  00005209  2**0
                   CONTENTS, READONLY
- 46 .xt.lit       00000060  00000000  00000000  00005240  2**0
+ 46 .xt.lit       00000060  00000000  00000000  00005241  2**0
                   CONTENTS, RELOC, READONLY
- 47 .xt.prop      000006c0  00000000  00000000  000052a0  2**0
+ 47 .xt.prop      000006c0  00000000  00000000  000052a1  2**0
                   CONTENTS, RELOC, READONLY

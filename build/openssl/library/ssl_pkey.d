@@ -9,7 +9,7 @@ library/ssl_pkey.o: \
  /home/estelio/esp/esp-idf/components/openssl/include/internal/ssl_methods.h \
  /home/estelio/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/estelio/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -61,7 +61,7 @@ library/ssl_pkey.o: \
 
 /home/estelio/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

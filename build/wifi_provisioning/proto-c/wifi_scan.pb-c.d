@@ -3,7 +3,7 @@ proto-c/wifi_scan.pb-c.o: \
  /home/estelio/esp/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.h \
  /home/estelio/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/estelio/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -33,7 +33,7 @@ proto-c/wifi_scan.pb-c.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 

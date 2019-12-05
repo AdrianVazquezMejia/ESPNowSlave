@@ -21,7 +21,7 @@ hwcrypto/sha.o: /home/estelio/esp/esp-idf/components/esp32/hwcrypto/sha.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/estelio/esp/esp-idf/components/wpa_supplicant/port/include/byteswap.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
@@ -134,7 +134,7 @@ hwcrypto/sha.o: /home/estelio/esp/esp-idf/components/esp32/hwcrypto/sha.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 

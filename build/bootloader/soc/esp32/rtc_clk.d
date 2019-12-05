@@ -7,7 +7,7 @@ esp32/rtc_clk.o: /home/estelio/esp/esp-idf/components/soc/esp32/rtc_clk.c \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/uart.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/gpio.h \
@@ -58,7 +58,7 @@ esp32/rtc_clk.o: /home/estelio/esp/esp-idf/components/soc/esp32/rtc_clk.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

@@ -2,7 +2,7 @@ src/flash_qio_mode.o: \
  /home/estelio/esp/esp-idf/components/bootloader_support/src/flash_qio_mode.c \
  /home/estelio/esp/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -20,7 +20,7 @@ src/flash_qio_mode.o: \
 
 /home/estelio/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

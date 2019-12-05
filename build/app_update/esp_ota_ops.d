@@ -26,7 +26,7 @@ esp_ota_ops.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -158,7 +158,7 @@ esp_ota_ops.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

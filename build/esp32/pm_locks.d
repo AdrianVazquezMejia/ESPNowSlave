@@ -27,7 +27,7 @@ pm_locks.o: /home/estelio/esp/esp-idf/components/esp32/pm_locks.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp32/pm.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
@@ -139,7 +139,7 @@ pm_locks.o: /home/estelio/esp/esp-idf/components/esp32/pm_locks.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

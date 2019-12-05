@@ -20,7 +20,7 @@ protobuf-c/protobuf-c/protobuf-c.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/newlib/include/limits.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
@@ -66,7 +66,7 @@ protobuf-c/protobuf-c/protobuf-c.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

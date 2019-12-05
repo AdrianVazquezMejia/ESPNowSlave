@@ -18,7 +18,7 @@ vfs.o: /home/estelio/esp/esp-idf/components/vfs/vfs.c \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/fcntl.h \
@@ -143,7 +143,7 @@ vfs.o: /home/estelio/esp/esp-idf/components/vfs/vfs.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -1,4 +1,4 @@
-In archive /home/estelio/eclipse-workspace/Project_SlaveNow/build/esp_https_server/libesp_https_server.a:
+In archive /home/estelio/eclipse-workspace/Project_MasterNow/build/esp_https_server/libesp_https_server.a:
 
 https_server.o:     file format elf32-xtensa-le
 
@@ -76,13 +76,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  35 .debug_line   00000608  00000000  00000000  000023cf  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 36 .debug_str    00000e8a  00000000  00000000  000029d7  2**0
+ 36 .debug_str    00000e8b  00000000  00000000  000029d7  2**0
                   CONTENTS, READONLY, DEBUGGING
- 37 .comment      0000003b  00000000  00000000  00003861  2**0
+ 37 .comment      0000003b  00000000  00000000  00003862  2**0
                   CONTENTS, READONLY
- 38 .xtensa.info  00000038  00000000  00000000  0000389c  2**0
+ 38 .xtensa.info  00000038  00000000  00000000  0000389d  2**0
                   CONTENTS, READONLY
- 39 .xt.lit       00000048  00000000  00000000  000038d4  2**0
+ 39 .xt.lit       00000048  00000000  00000000  000038d5  2**0
                   CONTENTS, RELOC, READONLY
- 40 .xt.prop      00000354  00000000  00000000  0000391c  2**0
+ 40 .xt.prop      00000354  00000000  00000000  0000391d  2**0
                   CONTENTS, RELOC, READONLY

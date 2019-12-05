@@ -10,7 +10,7 @@ src/ff.o: /home/estelio/esp/esp-idf/components/fatfs/src/ff.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/estelio/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -112,7 +112,7 @@ src/ff.o: /home/estelio/esp/esp-idf/components/fatfs/src/ff.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

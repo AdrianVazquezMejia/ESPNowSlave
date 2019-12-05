@@ -22,7 +22,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha512_mbedtls.o: \
  /home/estelio/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
  /home/estelio/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/estelio/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/estelio/esp/esp-idf/components/newlib/include/limits.h \
@@ -73,7 +73,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha512_mbedtls.o: \
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 

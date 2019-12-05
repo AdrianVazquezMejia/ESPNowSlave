@@ -11,7 +11,7 @@ sleep_modes.o: /home/estelio/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_sleep.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -141,7 +141,7 @@ sleep_modes.o: /home/estelio/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_sleep.h:
 

@@ -18,7 +18,7 @@ heap_trace.o: /home/estelio/esp/esp-idf/components/heap/heap_trace.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/heap/include/esp_heap_trace.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -126,7 +126,7 @@ heap_trace.o: /home/estelio/esp/esp-idf/components/heap/heap_trace.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/heap/include/esp_heap_trace.h:
 

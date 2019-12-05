@@ -21,7 +21,7 @@ heap_caps_init.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -129,7 +129,7 @@ heap_caps_init.o: \
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

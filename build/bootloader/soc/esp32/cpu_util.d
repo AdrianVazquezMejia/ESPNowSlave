@@ -1,7 +1,7 @@
 esp32/cpu_util.o: \
  /home/estelio/esp/esp-idf/components/soc/esp32/cpu_util.c \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -17,7 +17,7 @@ esp32/cpu_util.o: \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/cpu.h:
 

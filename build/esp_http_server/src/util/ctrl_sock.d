@@ -38,7 +38,7 @@ src/util/ctrl_sock.o: \
  /home/estelio/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -201,7 +201,7 @@ src/util/ctrl_sock.o: \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

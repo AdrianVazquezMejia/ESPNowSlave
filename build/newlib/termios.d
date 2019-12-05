@@ -1,5 +1,5 @@
 termios.o: /home/estelio/esp/esp-idf/components/newlib/termios.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -19,7 +19,7 @@ termios.o: /home/estelio/esp/esp-idf/components/newlib/termios.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/reent.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
 

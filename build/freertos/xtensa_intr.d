@@ -25,7 +25,7 @@ xtensa_intr.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
@@ -128,7 +128,7 @@ xtensa_intr.o: \
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

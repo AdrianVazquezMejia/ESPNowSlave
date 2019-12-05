@@ -10,7 +10,7 @@ modbus/rtu/mbcrc.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/estelio/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -121,7 +121,7 @@ modbus/rtu/mbcrc.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 

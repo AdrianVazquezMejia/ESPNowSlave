@@ -15,7 +15,7 @@ src/esp_image_format.o: \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -58,7 +58,7 @@ src/esp_image_format.o: \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_flash_data_types.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h:
 

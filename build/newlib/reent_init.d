@@ -15,7 +15,7 @@ reent_init.o: /home/estelio/esp/esp-idf/components/newlib/reent_init.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h
 
 /home/estelio/esp/esp-idf/components/newlib/include/string.h:
 
@@ -49,5 +49,5 @@ reent_init.o: /home/estelio/esp/esp-idf/components/newlib/reent_init.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 /home/estelio/esp/esp-idf/components/newlib/./reent_init.c:

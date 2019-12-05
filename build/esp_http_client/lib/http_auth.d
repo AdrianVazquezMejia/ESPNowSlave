@@ -31,7 +31,7 @@ lib/http_auth.o: \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/estelio/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
@@ -198,7 +198,7 @@ lib/http_auth.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

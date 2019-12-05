@@ -1,6 +1,6 @@
 log.o: /home/estelio/esp/esp-idf/components/log/log.c \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -12,7 +12,7 @@ log.o: /home/estelio/esp/esp-idf/components/log/log.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/xtensa/hal.h:
 

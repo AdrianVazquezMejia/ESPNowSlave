@@ -25,7 +25,7 @@ transport_utils.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/time.h
@@ -80,7 +80,7 @@ transport_utils.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

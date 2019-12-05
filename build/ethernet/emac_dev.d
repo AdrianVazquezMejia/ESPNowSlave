@@ -25,7 +25,7 @@ emac_dev.o: /home/estelio/esp/esp-idf/components/ethernet/emac_dev.c \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
@@ -119,7 +119,7 @@ emac_dev.o: /home/estelio/esp/esp-idf/components/ethernet/emac_dev.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 

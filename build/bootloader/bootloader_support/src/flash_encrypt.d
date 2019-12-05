@@ -3,7 +3,7 @@ src/flash_encrypt.o: \
  /home/estelio/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
@@ -45,7 +45,7 @@ src/flash_encrypt.o: \
 
 /home/estelio/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 

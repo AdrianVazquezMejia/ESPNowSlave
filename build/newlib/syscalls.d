@@ -27,7 +27,7 @@ syscalls.o: /home/estelio/esp/esp-idf/components/newlib/syscalls.c \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -140,7 +140,7 @@ syscalls.o: /home/estelio/esp/esp-idf/components/newlib/syscalls.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

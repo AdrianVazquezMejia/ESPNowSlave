@@ -23,7 +23,7 @@ esp_adapter.o: /home/estelio/esp/esp-idf/components/esp32/esp_adapter.c \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/pthread.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/time.h \
@@ -208,7 +208,7 @@ esp_adapter.o: /home/estelio/esp/esp-idf/components/esp32/esp_adapter.c \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

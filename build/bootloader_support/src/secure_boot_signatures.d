@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/estelio/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -47,7 +47,7 @@ src/secure_boot_signatures.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

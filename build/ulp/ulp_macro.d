@@ -23,7 +23,7 @@ ulp_macro.o: /home/estelio/esp/esp-idf/components/ulp/ulp_macro.c \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -87,7 +87,7 @@ ulp_macro.o: /home/estelio/esp/esp-idf/components/ulp/ulp_macro.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h:
 

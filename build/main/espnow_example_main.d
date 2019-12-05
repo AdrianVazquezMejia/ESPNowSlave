@@ -1,5 +1,5 @@
 espnow_example_main.o: \
- /home/estelio/eclipse-workspace/Project_SlaveNow/main/espnow_example_main.c \
+ /home/estelio/eclipse-workspace/Project_MasterNow/main/espnow_example_main.c \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/estelio/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -25,7 +25,7 @@ espnow_example_main.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
@@ -139,7 +139,7 @@ espnow_example_main.o: \
  /home/estelio/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_now.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/crc.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/main/espnow_example.h
+ /home/estelio/eclipse-workspace/Project_MasterNow/main/espnow_example.h
 
 /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -191,7 +191,7 @@ espnow_example_main.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -419,5 +419,5 @@ espnow_example_main.o: \
 
 /home/estelio/esp/esp-idf/components/esp32/include/rom/crc.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/main/espnow_example.h:
-/home/estelio/eclipse-workspace/Project_SlaveNow/main/./espnow_example_main.c:
+/home/estelio/eclipse-workspace/Project_MasterNow/main/espnow_example.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/main/./espnow_example_main.c:

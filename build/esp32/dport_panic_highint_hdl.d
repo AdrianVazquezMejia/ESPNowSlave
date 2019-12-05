@@ -14,7 +14,7 @@ dport_panic_highint_hdl.o: \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_panic.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h
@@ -47,7 +47,7 @@ dport_panic_highint_hdl.o: \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_panic.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 

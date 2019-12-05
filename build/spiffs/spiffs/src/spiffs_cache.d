@@ -30,7 +30,7 @@ spiffs/src/spiffs_cache.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/unistd.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/unistd.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -100,7 +100,7 @@ spiffs/src/spiffs_cache.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/include/sys/unistd.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/log/include/esp_log.h:
 

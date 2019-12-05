@@ -17,7 +17,7 @@ cpu_start.o: /home/estelio/esp/esp-idf/components/esp32/cpu_start.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -226,7 +226,7 @@ cpu_start.o: /home/estelio/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h:
 

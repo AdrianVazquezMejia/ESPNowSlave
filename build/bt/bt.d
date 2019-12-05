@@ -22,7 +22,7 @@ bt.o: /home/estelio/esp/esp-idf/components/bt/bt.c \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdint.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -153,7 +153,7 @@ bt.o: /home/estelio/esp/esp-idf/components/bt/bt.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/heap/include/esp_heap_caps.h:
 

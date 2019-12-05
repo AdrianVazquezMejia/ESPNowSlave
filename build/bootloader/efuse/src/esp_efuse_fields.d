@@ -3,7 +3,7 @@ src/esp_efuse_fields.o: \
  /home/estelio/esp/esp-idf/components/efuse/include/esp_efuse.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -23,7 +23,7 @@ src/esp_efuse_fields.o: \
 
 /home/estelio/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

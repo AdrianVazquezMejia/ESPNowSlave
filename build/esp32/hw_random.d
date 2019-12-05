@@ -21,7 +21,7 @@ hw_random.o: /home/estelio/esp/esp-idf/components/esp32/hw_random.c \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/esp32/include/esp_clk.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/wdev_reg.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -90,7 +90,7 @@ hw_random.o: /home/estelio/esp/esp-idf/components/esp32/hw_random.c \
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/esp32/include/esp_clk.h:
 

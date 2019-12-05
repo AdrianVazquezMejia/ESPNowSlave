@@ -25,7 +25,7 @@ lib/http_utils.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/assert.h \
  /home/estelio/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/time.h \
@@ -81,7 +81,7 @@ lib/http_utils.o: \
 
 /home/estelio/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/assert.h:
 

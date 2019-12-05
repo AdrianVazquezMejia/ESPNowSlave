@@ -35,7 +35,7 @@ deps_config := \
 	/home/estelio/esp/esp-idf/components/app_update/Kconfig.projbuild \
 	/home/estelio/esp/esp-idf/components/bootloader/Kconfig.projbuild \
 	/home/estelio/esp/esp-idf/components/esptool_py/Kconfig.projbuild \
-	/home/estelio/eclipse-workspace/Project_SlaveNow/main/Kconfig.projbuild \
+	/home/estelio/eclipse-workspace/Project_MasterNow/main/Kconfig.projbuild \
 	/home/estelio/esp/esp-idf/components/partition_table/Kconfig.projbuild \
 	/home/estelio/esp/esp-idf/Kconfig
 

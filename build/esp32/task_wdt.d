@@ -24,7 +24,7 @@ task_wdt.o: /home/estelio/esp/esp-idf/components/esp32/task_wdt.c \
  /home/estelio/esp/esp-idf/components/newlib/include/alloca.h \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/estelio/esp/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -149,7 +149,7 @@ task_wdt.o: /home/estelio/esp/esp-idf/components/esp32/task_wdt.c \
 
 /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

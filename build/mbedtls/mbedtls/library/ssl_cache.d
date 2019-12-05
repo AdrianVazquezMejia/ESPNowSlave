@@ -1,7 +1,7 @@
 mbedtls/library/ssl_cache.o: \
  /home/estelio/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cache.c \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/estelio/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/estelio/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
@@ -55,7 +55,7 @@ mbedtls/library/ssl_cache.o: \
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 

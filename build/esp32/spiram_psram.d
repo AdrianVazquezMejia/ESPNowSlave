@@ -1,5 +1,5 @@
 spiram_psram.o: /home/estelio/esp/esp-idf/components/esp32/spiram_psram.c \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/newlib/include/string.h \
  /home/estelio/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/estelio/esp/esp-idf/components/newlib/include/newlib.h \
@@ -80,7 +80,7 @@ spiram_psram.o: /home/estelio/esp/esp-idf/components/esp32/spiram_psram.c \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/estelio/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/newlib/include/string.h:
 

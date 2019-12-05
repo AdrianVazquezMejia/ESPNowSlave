@@ -9,7 +9,7 @@ esp32/rtc_time.o: \
  /home/estelio/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
  /home/estelio/esp/esp-idf/components/soc/esp32/soc_log.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/log/include/esp_log_internal.h
 
 /home/estelio/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
@@ -30,7 +30,7 @@ esp32/rtc_time.o: \
 
 /home/estelio/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/bootloader/../include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/bootloader/../include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/log/include/esp_log_internal.h:
 /home/estelio/esp/esp-idf/components/soc/esp32/rtc_time.c:

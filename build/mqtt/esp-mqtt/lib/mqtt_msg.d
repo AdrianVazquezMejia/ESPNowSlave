@@ -19,7 +19,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  /home/estelio/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h \
+ /home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h \
  /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h \
  /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform_esp32_idf.h \
  /home/estelio/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -171,7 +171,7 @@ esp-mqtt/lib/mqtt_msg.o: \
 
 /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-/home/estelio/eclipse-workspace/Project_SlaveNow/build/include/sdkconfig.h:
+/home/estelio/eclipse-workspace/Project_MasterNow/build/include/sdkconfig.h:
 
 /home/estelio/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h:
 
